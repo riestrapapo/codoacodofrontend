@@ -1,0 +1,468 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: #33363B;
+}
+
+#logo {
+    grid-column: 1;
+    min-width: 100px;
+    width: 50%;
+    max-width: 150px;
+    margin-left: 2rem;
+}
+
+header h2 {
+    font-size: 2rem;
+    color: white;
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav button {
+    width: 100%;
+    background-color: #26272B;
+    border-width: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+nav {
+    width: 100%;
+    font-size: 1.8rem;
+    justify-content: center;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer {
+    background-color: #33363B;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    display: grid;
+    list-style: none;
+    margin: 1.2rem 0;
+    padding-inline-start: 0;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0rem;
+    padding-left: 0;
+}
+
+p {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 3rem;
+}
+
+.carousel {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel button {
+    background-color: #26272B;
+    font-size: 2rem;
+    color: rgb(196, 196, 196);
+    font-weight: bold;
+    border: none;
+    border: solid 0.3rem rgb(0, 0, 0);
+    height: 30rem;
+}
+
+#imagen {
+    width: 100%;
+    max-width: 500px;
+    background-size: 100% 100%;
+}
+
+img {
+    display: grid;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+h6 {
+    color: white;
+    margin: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#foot {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fa {
+    padding: 2rem;
+    font-size: 3rem;
+    width: 8rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.5rem 2rem;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transition: all .3s ease-in-out;
+    -o-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-whatsapp {
+    background: #00bb2d;
+    color: white;
+}
+
+#face {
+    justify-self: center;
+}
+
+#twitter {
+    justify-self: center;
+}
+
+#insta {
+    justify-self: center;
+}
+
+#whats {
+    justify-self: center;
+}
+
+.mapa {
+    display: grid;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 0;
+    max-width: 100%;
+}
+
+form {
+    display: grid;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1.2rem;
+}
+
+form input {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.3rem 1rem;
+    height: 2.5rem;
+    border: none;
+    border: solid 0.2rem rgb(134, 134, 134);
+    border-radius: 2rem;
+    padding-left: 0.5rem;
+}
+
+.form {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.2rem 1rem;
+    height: 25px;
+    border: none;
+    border: solid 0.2rem rgb(134, 134, 134);
+    border-radius: 20px;
+    padding-left: 0.5rem;
+}
+
+textarea {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.2rem 1rem;
+    height: 10rem;
+    border: none;
+    border: solid 0.2rem rgb(134, 134, 134);
+    border-radius: 1rem;
+    padding-left: 0.5rem;
+}
+
+option {
+    background-color: rgb(179, 179, 179);
+    font-size: 1.5rem;
+}
+
+label {
+    display: none;
+}
+
+article p {
+    margin: 2rem 2rem;
+}
+
+article img {
+    transition: all .5s ease-in-out;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button input {
+    height: 4rem;
+    font-size: 2rem;
+    width: 100%;
+    border: solid 0.2rem black;
+    background-color: #33363B;
+    color: white;
+    transition: .5s;
+}
+
+.button input:hover {
+    opacity: 70%;
+    transition: .5s;
+}
+
+
+/* CSS pantallas de 320px o superior */
+
+@media (min-width: 320px) {
+    body {
+        margin-bottom: 32rem;
+    }
+    .mapa {
+        width: 550px;
+        height: 350px;
+    }
+    nav {
+        background-color: #33363B;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        font-size: 2rem;
+    }
+    nav a {
+        color: rgb(196, 196, 196);
+        border: none;
+        width: 100%;
+        text-align: center;
+        border-top: 0.2rem solid black;
+        transition: all .5s ease-in-out;
+    }
+    nav ul {
+        margin: 0;
+    }
+    nav #mostrar {
+        display: block;
+    }
+    .ocultar {
+        display: none;
+    }
+    .mostrar {
+        display: block;
+    }
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #face {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #twitter {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #insta {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    #whats {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .carousel button {
+        height: 20rem;
+    }
+}
+
+@media (min-width: 420px) {
+    .carousel button {
+        height: 25rem;
+    }
+}
+
+@media (min-width: 570px) {
+    .carousel button {
+        height: 28rem;
+    }
+}
+
+
+/* CSS pantalla 768px o superior */
+
+@media (min-width: 768px) {
+    body {
+        margin-bottom: 22rem;
+    }
+    .mapa {
+        width: 750px;
+        height: 500px;
+    }
+    nav {
+        text-align: center;
+        background-color: #26272B;
+        display: flex;
+        height: 3.3rem;
+    }
+    nav li {
+        display: inline-block;
+        margin: 0 0.7rem;
+    }
+    nav #mostrar button {
+        display: none;
+    }
+    nav #mostrar #ocultar {
+        display: block;
+    }
+    nav a {
+        border: none;
+        border-right: solid 0.2rem rgb(0, 0, 0);
+        border-left: solid 0.2rem rgb(0, 0, 0);
+        color: rgb(196, 196, 196);
+        margin: 0 2rem;
+        padding-top: 1rem;
+    }
+    .footer {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: none;
+    }
+    #face {
+        grid-column: 1;
+    }
+    #insta {
+        grid-column: 2;
+    }
+    #twitter {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    #whats {
+        grid-column: 4;
+        grid-row: 1;
+    }
+    .carousel button {
+        height: 30rem;
+    }
+    article img:hover {
+        transition: all .5s ease-in-out;
+        -o-transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+        -moz-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        margin-bottom: 21rem;
+    }
+    .mapa {
+        width: 1024px;
+        height: 500px;
+    }
+    .contenedor2 {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+    }
+    nav {
+        display: block;
+        grid-column: 1;
+        padding: 0rem;
+        margin: 0;
+        background-color: #33363B;
+        font-size: 2rem;
+        height: auto;
+    }
+    nav a {
+        transition: all .5s ease-in-out;
+        background-color: #26272B;
+        border: none;
+        margin: 0;
+        padding: 0rem 1rem 0rem 1rem;
+        text-align: center;
+    }
+    nav a:hover {
+        transition: all .5s ease-in-out;
+        margin: 0 0;
+        opacity: 70%;
+        font-size: 2.5rem;
+    }
+    nav li {
+        display: block;
+        margin: 0rem;
+    }
+    .content {
+        grid-column: 2;
+        padding-left: 1rem;
+    }
+    .carousel {
+        max-width: 100%;
+    }
+    .carousel button {
+        height: 40rem;
+    }
+}
