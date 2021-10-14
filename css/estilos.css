@@ -294,7 +294,7 @@ article img {
         font-size: 2rem;
     }
     nav a {
-        color: rgb(196, 196, 196);
+        color: rgb(231, 231, 231);
         border: none;
         width: 100%;
         text-align: center;
@@ -381,7 +381,6 @@ article img {
         border: none;
         border-right: solid 0.2rem rgb(0, 0, 0);
         border-left: solid 0.2rem rgb(0, 0, 0);
-        color: rgb(196, 196, 196);
         margin: 0 2rem;
         padding-top: 1rem;
     }
@@ -438,6 +437,7 @@ article img {
         height: auto;
     }
     nav a {
+        color: rgb(196, 196, 196);
         transition: all .5s ease-in-out;
         background-color: #26272B;
         border: none;
